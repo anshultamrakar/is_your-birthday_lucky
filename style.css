@@ -12,7 +12,41 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    margin-top: 10rem;
+    gap: 2rem;
+    margin-top: 5rem;
 }
 
+
+input{
+    width: 20%;
+    height: 3vh;
+    font-family:'Nunito', sans-serif;
+    font-size: 1.5rem;
+}
+
+label{
+    font-size: 1.2rem;
+    
+}
+
+button{
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+    width: 20%;
+    height: 3vh;
+}
+
+
+
+#output-box{
+    width: 20%;
+    height: 20vh;
+    border: 2px solid black;
+    padding: 1rem;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-radius: 15px;
+}
